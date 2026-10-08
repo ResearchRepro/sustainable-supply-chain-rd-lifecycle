@@ -1,0 +1,24 @@
+{
+  "HHI": 941.8,
+  "HHI_label": "diverse",
+  "balance_score": 0.651,
+  "actual_stage_shares": {
+    "Emerging": 0.0,
+    "Growth": 0.576,
+    "Mature": 0.374,
+    "Saturation": 0.051
+  },
+  "ideal_stage_shares": {
+    "Emerging": 0.25,
+    "Growth": 0.3,
+    "Mature": 0.3,
+    "Saturation": 0.15
+  },
+  "stage_cluster_counts": {
+    "Growth": 6,
+    "Mature": 4,
+    "Saturation": 1
+  },
+  "total_records": 7747,
+  "total_clusters": 11
+}

@@ -1,0 +1,82 @@
+
+============================================================
+CLUSTER NAMING PROMPT — PASTE INTO LLM
+============================================================
+
+You are an expert in supply chain management, research funding analytics,
+and scientometrics. Below are thematic clusters extracted from a large
+corpus of supply chain R&D grant abstracts. Each cluster is described
+by its 15 most discriminative TF-IDF keywords, its size, and its
+lifecycle stage.
+
+Your task is to assign a concise, academically appropriate thematic label
+to each cluster. The label must:
+  - Be 3 to 7 words long
+  - Reflect supply chain and R&D funding domain terminology
+  - Be grounded in at least 7 of the provided keywords
+  - Be distinct from all other cluster labels
+  - Be supported by one real, verifiable APA-7 formatted reference
+    that establishes or uses this thematic category in the literature
+  - NOT be generic (avoid labels like 'Supply Chain Research')
+
+For each cluster provide:
+  CLUSTER ID: CXX
+  SIZE: N grants | LIFECYCLE: stage
+  PROPOSED LABEL: your label here
+  GROUNDING KEYWORDS: list at least 7 keywords from the list that justify the label
+  JUSTIFICATION: 2-3 sentences explaining the label choice
+  REFERENCE: one real APA-7 citation
+
+CLUSTER DATA:
+
+CLUSTER C00
+  Size: 627 grants | Lifecycle stage: Growth
+  Top 15 TF-IDF keywords: hardware security, qubits, trojans, satc, hardware trojans, quantum computing, quantum computers, quantum sensors, quantum technology, mmwave, quantum technologies, qubit, untrusted, ics, quantum advantage
+
+CLUSTER C01
+  Size: 685 grants | Lifecycle stage: Growth
+  Top 15 TF-IDF keywords: sic, shap3d, 3dcp, titanium, sila, smdr, cardamom, alloys, alloy, castings, metal forming, weld, blade, nanofibers, aluminium
+
+CLUSTER C02
+  Size: 393 grants | Lifecycle stage: Saturation
+  Top 15 TF-IDF keywords: antarctic, antarctica, sea ice, ice sheet, glacier, cariaco, ice shelf, wais, antarctic ice, shipboard, polar, greenland, sco, west antarctica, ross
+
+CLUSTER C03
+  Size: 754 grants | Lifecycle stage: Growth
+  Top 15 TF-IDF keywords: rees, lactic, lactic acid, dyeing, colorants, cdw, bioleaching, beccs, ggr, bioenergy, biofuels, rice straw, lignocellulosic, cbgtl, textile waste
+
+CLUSTER C04
+  Size: 705 grants | Lifecycle stage: Mature
+  Top 15 TF-IDF keywords: dels, ceat, aiis, evo, foe, celdi, metal forming, cinema, distribution celdi, sgp, attendance, introductory, isu, institutes health, national institutes
+
+CLUSTER C05
+  Size: 654 grants | Lifecycle stage: Mature
+  Top 15 TF-IDF keywords: phenx, genomic medicine, crisis line, dfs, hearing aid, syphilis, chws, veterans crisis, nurses, mhealth, vaccination, resuscitation, navigator, fatal crashes, clinic
+
+CLUSTER C06
+  Size: 896 grants | Lifecycle stage: Growth
+  Top 15 TF-IDF keywords: wheat, values based, fsma, salmonella, barley, quinoa, acrylamide, food safety, beef, adulteration, nutritious, meat, local foods, potato, food fraud
+
+CLUSTER C07
+  Size: 680 grants | Lifecycle stage: Growth
+  Top 15 TF-IDF keywords: urban freight, tailgate, rail freight, city logistics, intermodal, freight transport, parking, couriers, road freight, maritime logistics, bangkok, mile logistics, freight transportation, bike, unloading
+
+CLUSTER C08
+  Size: 645 grants | Lifecycle stage: Mature
+  Top 15 TF-IDF keywords: branch and, relaxations, packing problems, integer programs, polyhedral, making problems, lot sizing, approximation algorithms, discrete optimization, cutting planes, soft robots, polynomial time, programming problems, salesman problem, neighborhood search
+
+CLUSTER C09
+  Size: 818 grants | Lifecycle stage: Growth
+  Top 15 TF-IDF keywords: v2g, battery supply, renewable generation, perovskite, lithium ion, ion battery, ion batteries, libs, low voltage, ctv, inverter, battery storage, sic, dnos, li ion
+
+CLUSTER C10
+  Size: 890 grants | Lifecycle stage: Mature
+  Top 15 TF-IDF keywords: trade finance, exchange rate, loop supply, cotton, security risk, scorecard, production inventory, modern slavery, to order, bullwhip, revenue management, demand forecasting, management accounting, bullwhip effect, fashion supply
+
+IMPORTANT RULES:
+  - Do not fabricate references. Only cite real, published, verifiable works.
+  - Do not use bullet points in your response.
+  - Do not use bold, underscores, or em dashes.
+  - Write all labels and justifications in formal academic English.
+  - Every cluster must receive a unique label.
+============================================================
